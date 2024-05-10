@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding-top: 30;
+    font-family: sans-serif;
+    justify-content: center;
+  }
+  
+  body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    width: 39%;
+    height: 520px;
+    background-color: rgb(232, 252, 227);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    margin-left: 0px;
+    justify-content: center;
+
+  }
+  
+  .main > div {
+    width: 12.5%;
+    height: 65px;
+    font-size: 3rem;
+    text-align: center;
+    box-sizing: border-box;
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main > .lightgreen {
+    background-color: lightgreen;
+    justify-content: center;
+  }
+  
+  .main > .green {
+    background-color: green;
+    justify-content: center;
+
+  }
+  
+  .bottom {
+
+    color: #fff;
+    justify-content: center;
+
+  }
